@@ -7,21 +7,21 @@
       "platform_type": "android",
       "ad_inline_banners": [
         {
-          "ad_unit_id": "R-M-7773472-2",
+          "ad_unit_id": "R-M-7773472-8",
           "placement_id": 0,
           "name": "calendar",
           "enabled": true,
           "max_height": 100
         },
         {
-          "ad_unit_id": "R-M-7773472-3",
+          "ad_unit_id": "R-M-7773472-9",
           "placement_id": 0,
           "name": "analytics",
           "enabled": true,
           "max_height": 100
         },
         {
-          "ad_unit_id":  "R-M-7773472-4",
+          "ad_unit_id":  "R-M-7773472-5",
           "placement_id": 1272210,
           "name": "profile",
           "enabled": true,
@@ -58,13 +58,13 @@
   ],
   "ad_inline_banners": [
     {
-      "ad_unit_id": "R-M-7773472-2",
+      "ad_unit_id": "R-M-7773472-8",
       "name": "calendar",
       "enabled": true,
       "max_height": 100
     },
     {
-      "ad_unit_id": "R-M-7773472-3",
+      "ad_unit_id": "R-M-7773472-9",
       "name": "analytics",
       "enabled": true,
       "max_height": 100
