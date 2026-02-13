@@ -95,7 +95,6 @@ author:
   email: your@email.com
   telegram: yourusername
   github: yourusername
-  linkedin: yourusername
 ```
 
 ### Styling

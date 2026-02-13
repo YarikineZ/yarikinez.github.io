@@ -89,8 +89,5 @@ layout: default
     {% if site.author.github %}
       <a href="https://github.com/{{ site.author.github }}" class="contact-link" target="_blank" rel="noopener">GitHub</a>
     {% endif %}
-    {% if site.author.linkedin %}
-      <a href="https://linkedin.com/in/{{ site.author.linkedin }}" class="contact-link" target="_blank" rel="noopener">LinkedIn</a>
-    {% endif %}
   </div>
 </section>
