@@ -1,0 +1,24 @@
+﻿<footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-links">
+        {% if site.author.telegram %}
+          <a href="https://t.me/{{ site.author.telegram }}" target="_blank" rel="noopener">Telegram</a>
+        {% endif %}
+        {% if site.author.email %}
+          <a href="mailto:{{ site.author.email }}">Email</a>
+        {% endif %}
+        {% if site.author.github %}
+          <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
+        {% endif %}
+        {% if site.author.linkedin %}
+          <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+        {% endif %}
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. Built with Jekyll.</p>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,71 @@
+﻿# Site settings
+title: Yaroslav Nasonov
+tagline: CTO / Engineering Leader
+description: >-
+  I build mobile products and scalable systems. 
+  Focused on AI, architecture and teams.
+url: "https://yarikinez.github.io"
+baseurl: ""
+
+# Author
+author:
+  name: Yaroslav Nasonov
+  role: CTO · Mobile · AI
+  email: yaroslav.nasonov@gmail.com
+  telegram: "@yaroslav_nasonov"
+  github: YarikineZ
+  linkedin: your-linkedin
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: python
+
+permalink: /blog/:year/:month/:day/:title/
+timezone: Europe/Moscow
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - README.md
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO
+lang: en
+logo: /assets/images/logo.png
+
+# RSS Feed
+feed:
+  path: feed.xml
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Yaroslav Nasonov"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
