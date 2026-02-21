@@ -1,10 +1,7 @@
 ﻿<header class="site-header">
   <div class="container">
-    <nav class="nav">
-      <a href="{{ '/' | relative_url }}" class="nav-logo">{{ site.author.name }}</a>
-      <div class="nav-links">
-        <a href="{{ '/blog' | relative_url }}" class="nav-link">Blog</a>
-      </div>
-    </nav>
+    <div class="header-line">
+      <span class="term-dim">// </span><a href="{{ '/' | relative_url }}" class="header-home">{{ site.author.name }}</a>{% comment %}<span class="term-dim"> · </span><a href="{{ '/blog' | relative_url }}" class="header-nav-link">blog</a>{% endcomment %}
+    </div>
   </div>
 </header>

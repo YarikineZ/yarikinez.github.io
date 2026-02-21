@@ -1,25 +1,11 @@
 ﻿<footer class="site-footer">
   <div class="container">
-    <div class="footer-content">
-      <div class="footer-links">
-        {% if site.author.telegram %}
-          <a href="https://t.me/{{ site.author.telegram }}" target="_blank" rel="noopener">Telegram</a>
-        {% endif %}
-        {% if site.author.email %}
-          <a href="mailto:{{ site.author.email }}">Email</a>
-        {% endif %}
-        {% if site.author.github %}
-          <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
-        {% endif %}
-        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-      </div>
-      <div class="footer-copyright">
-        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. Built with Jekyll.</p>
-        <p class="footer-legal">
-          ИП НАСОНОВ ЯРОСЛАВ АЛЕКСЕЕВИЧ<br>
-          ИНН 781437852907 · ОГРНИП 321784700361595
-        </p>
-      </div>
+    <div class="footer-copyright">
+      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}.</p>
+      <p class="footer-legal">
+        ИП НАСОНОВ ЯРОСЛАВ АЛЕКСЕЕВИЧ<br>
+        ИНН 781437852907 · ОГРНИП 321784700361595
+      </p>
     </div>
   </div>
 </footer>

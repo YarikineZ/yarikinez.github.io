@@ -1,38 +1,61 @@
 ﻿# Personal Website
 
-Minimalist technical site built with Jekyll. Focused on engineering leadership, architecture, and AI.
+Minimalist terminal-style site built with Jekyll.
 
-## 🚀 Quick Start
+## Локальный запуск
 
-### Prerequisites
+### Требования
 
-- Ruby 3.0+ ([installation guide](https://www.ruby-lang.org/en/documentation/installation/))
-- Bundler (`gem install bundler`)
+- macOS с Homebrew
+- rbenv (устанавливается ниже)
 
-### Local Development
+### Установка
 
-1. **Install dependencies:**
-   ```bash
-   bundle install
-   ```
+**1. Установить rbenv и ruby-build:**
 
-2. **Run development server:**
-   ```bash
-   bundle exec jekyll serve
-   ```
+```bash
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew install rbenv ruby-build
+```
 
-3. **View site:**
-   Open [http://localhost:4000](http://localhost:4000)
+**2. Установить Ruby 3.3.7:**
 
-The site will auto-reload when you make changes.
+```bash
+eval "$(rbenv init -)"
+rbenv install 3.3.7
+rbenv local 3.3.7
+```
 
-### Build for Production
+**3. Установить зависимости:**
+
+```bash
+gem install bundler
+bundle install
+```
+
+**4. Запустить сервер:**
+
+```bash
+bundle exec jekyll serve --livereload
+```
+
+Сайт откроется на [http://localhost:4000](http://localhost:4000).  
+При изменении файлов страница перезагружается автоматически.
+
+### Сборка для продакшена
 
 ```bash
 bundle exec jekyll build
 ```
 
-Output will be in `_site/` directory.
+Результат — в папке `_site/`.
+
+### Быстрый запуск (после первоначальной настройки)
+
+```bash
+eval "$(/opt/homebrew/bin/brew shellenv)" && eval "$(rbenv init -)" && bundle exec jekyll serve --livereload
+```
+
 
 ## 📁 Structure
 
