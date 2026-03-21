@@ -6,6 +6,7 @@ layout: default
 
 <div class="term-hero">
 <pre class="ascii-logo">
+<!-- https://patorjk.com/software/taag/#p=display&f=Big&t=CURIOSTO&x=none&v=4&h=4&w=80&we=false -->
  ____    ____  _____  ___   ____    ___   __ __     _____  __ __  ____  
 |    \  /    |/ ___/ /   \ |    \  /   \ |  |  |   |     ||  |  ||    \ 
 |  _  ||  o  (   \_ |     ||  _  ||     ||  |  |   |   __||  |  ||  _  |
