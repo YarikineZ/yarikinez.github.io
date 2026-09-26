@@ -44,6 +44,22 @@ layout: default
 <div class="term-line"><span class="term-prompt">~$</span> <span class="term-cmd">ls ./projects/</span></div>
 <div class="term-output">
 <div class="term-project">
+<span class="term-key"><a href="https://trend.nasonov.fun" target="_blank" rel="noopener">trend.nasonov.fun</a></span>  <span class="term-dim">— автор · медиакит для Instagram за 30 секунд</span>
+<div class="term-project-detail">
+  · верифицированные данные из официального API Meta<br>
+  · охваты, вовлечённость и демография аудитории<br>
+  · для блогеров и рекламодателей
+</div>
+</div>
+<div class="term-project">
+<span class="term-key"><a href="https://slot.nasonov.fun" target="_blank" rel="noopener">slot.nasonov.fun</a></span>  <span class="term-dim">— автор · Telegram-бот «Слоты» для выбора времени встречи</span>
+<div class="term-project-detail">
+  · каждый в чате отмечает, когда свободен<br>
+  · сводка показывает общее время для созвона<br>
+  · без опросов и долгой переписки
+</div>
+</div>
+<div class="term-project">
 <span class="term-key"><a href="https://clatch.app" target="_blank" rel="noopener">clatch.app</a></span>  <span class="term-dim">— CTO · мобильное wellness-приложение · 1.5 млн MAU</span>
 <div class="term-project-detail">
   · календарь цикла и прогнозирование овуляции<br>
